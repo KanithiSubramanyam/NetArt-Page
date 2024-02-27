@@ -12,10 +12,10 @@ const Page = () => {
           <div className="Logo">
             <img src={Logo}></img>
           </div>
-          <div className="H-Content">
+          {/* <div className="H-Content">
             <strong>C.R.I. Fluid Systems.</strong>
             <p>Pumping Trust. Worldwide.</p>
-          </div>
+          </div> */}
         </div>
         <div className="Content">
           <div className="Image1">

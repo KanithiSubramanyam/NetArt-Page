@@ -1,0 +1,123 @@
+body{
+    background-image: linear-gradient(to top,  #fdf396 0%, #fdfdf9 120%);
+    font-family: Arial, sans-serif; /* Adjust font family as needed */
+}
+.Container {
+   
+  }
+ .Heading {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  
+  .Logo img {
+    max-width: 800px; 
+    height: 100px;
+  }
+
+  .Content {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .Image1 img{
+    flex: 1;
+    margin-right: 20px;
+    max-width: 800px;
+    height: 780px;
+  }
+  
+  .Details {
+    position: relative;
+    left: 100px;
+}
+  
+  /* Details section */
+  .Dt-Heading, .Dt-Conclusion {
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+    max-width: 1000px;
+  }
+  .Dt-Data{
+    max-width: 1000px;
+    position: relative;
+    left: 20px; 
+
+  }
+  .Dt-List {
+    padding-left: 20px;
+    line-height: 17px;
+    font-weight: 500;
+  }
+
+  .Dt-Image img{
+    width: 1050px;
+  }
+  
+  .Dt-Conclusion {
+    margin-top: 20px;
+  }
+  
+  /* Main content section */
+  .Main-Content {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .Mc-Content {
+    flex: 2;
+    margin-right: 20px;
+  }
+  
+  .Mc-Image {
+    flex: 1;
+  }
+  
+  /* Last content section */
+  .Last-Content {
+    margin-top: 20px;
+  }
+  
+  .L-Head {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .L-List {
+    line-height: 1.6;
+  }
+  
+  /* Footer section */
+  .Footer {
+    margin-top: 20px;
+  }
+  
+  .Ft-List {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .Ft-List li {
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 600px) {
+    .Container {
+      padding: 10px;
+    }
+    
+    .Heading {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .Logo img {
+      max-width: 80px;
+    }
+  }
+  
