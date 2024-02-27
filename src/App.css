@@ -4,13 +4,9 @@ body{
     margin: 0px;
     padding: 0px;
 }
-.Container {
-   
-  }
  .Heading {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
     justify-content: center;
   }
   
@@ -21,7 +17,6 @@ body{
 
   .Content {
     display: flex;
-    margin-top: 20px;
   }
   
   .Image1 img{
