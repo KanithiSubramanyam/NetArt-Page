@@ -10,7 +10,7 @@ const Page = () => {
       <div className="Container">
         <div className="Heading">
           <div className="Logo">
-            <img src={Logo}></img>
+            <img src={Logo} alt="Logo"></img>
           </div>
           {/* <div className="H-Content">
             <strong>C.R.I. Fluid Systems.</strong>
@@ -67,7 +67,7 @@ const Page = () => {
             </p>
           </div>
           <div className="Mc-Image">
-            <img src={Image3}></img>
+            <img src={Image3} alt="Image3"></img>
           </div>
           <div className="Mc-List">
             <p>
