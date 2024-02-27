@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(to top,  #fdf396 0%, #fdfdf9 120%);
+    background-image: linear-gradient(to top,  #fff7b0 0%, #f9f9f9 120%);
     font-family: Arial, sans-serif; /* Adjust font family as needed */
     margin: 0px;
     padding: 0px;
@@ -26,7 +26,7 @@ body{
   
   .Image1 img{
     max-width: 400px;
-    height: 620px;
+    height: 640px;
     padding-left: 10px ;
     position: relative;
     top: 14px;
@@ -67,48 +67,78 @@ body{
     width: 840px;
   }
   
-  .Dt-Conclusion {
-    margin-top: 20px;
-  }
   
   /* Main content section */
   .Main-Content {
-    display: flex;
+    display: block;
     margin-top: 20px;
+    padding: 20px;
   }
   
   .Mc-Content {
-    flex: 2;
-    margin-right: 20px;
+    font-size: 14px;
   }
   
   .Mc-Image {
-    flex: 1;
-  }
-  
+    padding: 10px 60px;
+    }
+    .Mc-Image img{
+        width: 1150px;
+    }
+    .Mc-List {
+        text-align: center;
+    }
+    .Line{
+        height: 1px;
+        background-color: red;
+        margin: 10px;
+    }
   /* Last content section */
   .Last-Content {
     margin-top: 20px;
   }
   
   .L-Head {
-    font-size: 20px;
+    text-align: center;
+    font-size: 14px;
     font-weight: bold;
     margin-bottom: 10px;
   }
   
   .L-List {
+    text-align: center;
     line-height: 1.6;
   }
-  
+  .L-List ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .L-List li{
+    padding: 0px 4px;
+    font-size: 13px;
+    font-weight: 500px;
+    border-right: 2px solid red;
+  }
+  .L-List li:last-child{
+    border: none;
+  }
   /* Footer section */
   .Footer {
-    margin-top: 20px;
+    height: 100px;
+    margin: 5px;
+    margin-top: 40px;
+    background-color: red;
   }
   
   .Ft-List {
     list-style-type: none;
-    padding: 0;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    color: #f0e6e6;
   }
   
   .Ft-List li {
