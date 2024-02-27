@@ -3,7 +3,9 @@ import Image1 from "../images/1.png";
 import Image2 from "../images/2.png";
 import Image3 from "../images/3.png";
 import Logo from "../images/logo.png";
-
+import { FaFacebook } from 'react-icons/fa';
+import { FiPhone } from 'react-icons/fi'; // Phone call icon from Feather icons
+import { IoMdGlobe } from 'react-icons/io';
 const Page = () => {
   return (
     <>
@@ -104,9 +106,9 @@ const Page = () => {
         </div>
         <div className="Footer">
           <ul className="Ft-List">
-            <li>Toll Free 1800 200 1234</li>
-            <li>www.facebook.com/cripumps</li>
-            <li>www.crigroups.com</li>
+            <li><FiPhone /> Toll Free 1800 200 1234</li>
+            <li><FaFacebook /> www.facebook.com/cripumps</li>
+            <li><IoMdGlobe /> www.crigroups.com</li>
           </ul>
         </div>
       </div>

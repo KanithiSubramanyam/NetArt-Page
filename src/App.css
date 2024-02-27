@@ -142,7 +142,11 @@ body{
   }
   
   .Ft-List li {
-    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
   }
   
   /* Responsive styles */
